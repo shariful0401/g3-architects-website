@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
 }
+
 /* header section start */
 header {
   background: rgba(255, 144, 14, 0.10);
@@ -31,7 +32,8 @@ ul li {
   padding-left: 400px;
   padding-right: 400px;
 }
-.header-content h1{
+
+.header-content h1 {
   color: black;
   font-size: 50px;
   font-weight: bolder;
@@ -46,36 +48,75 @@ ul li {
   font-size: 15px;
   font-weight: 700;
 }
-header img{
-  padding:50px;
+
+header img {
+  padding: 50px;
 }
+
 /* header section end */
 
-.features-section{
+.features-section {
   display: flex;
-  
+
 }
-.feature-content{
+
+.feature-content {
   padding-top: 250px;
   padding-left: 40px;
   padding-right: 200px;
 }
-.feature-content h1{
+
+.feature-content h1 {
   font-size: 45px;
   color: #727272;
 }
-.features{
+
+.features {
   color: #FF900E;
 }
-.of{
+
+.of {
   color: black;
 }
 
-.team-images{
+.team-images {
   display: grid;
-  grid-template-columns:auto auto;
-  grid-gap:20px;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
   column-gap: 10px;
   padding-left: 100px;
   padding-top: 50px;
+}
+
+/* features section end */
+
+.love-enjoy-section {
+  display: flex;
+  padding: 100px;
+}
+
+.love-content {
+  padding-right: 50px;
+}
+
+.enjoy-heading h1 {
+  font-size: 45px;
+  border-left: 5px solid #FF900E;
+  padding: 10px;
+  padding-right: 200px;
+}
+
+.enjoy-heading p {
+  color: #727272;
+}
+
+.content-div {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px 20px;
+  margin: 10px;
+}
+.content-div p{
+  color: #727272;
 }
