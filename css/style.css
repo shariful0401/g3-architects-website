@@ -50,3 +50,32 @@ header img{
   padding:50px;
 }
 /* header section end */
+
+.features-section{
+  display: flex;
+  
+}
+.feature-content{
+  padding-top: 250px;
+  padding-left: 40px;
+  padding-right: 200px;
+}
+.feature-content h1{
+  font-size: 45px;
+  color: #727272;
+}
+.features{
+  color: #FF900E;
+}
+.of{
+  color: black;
+}
+
+.team-images{
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-gap:20px;
+  column-gap: 10px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
