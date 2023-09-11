@@ -50,7 +50,7 @@ ul li {
 }
 
 header img {
-  padding: 50px;
+  padding: 30px;
 }
 
 /* header section end */
@@ -89,7 +89,7 @@ header img {
 }
 
 /* features section end */
-
+/* love and enjoy section start */
 .love-enjoy-section {
   display: flex;
   padding: 100px;
@@ -137,3 +137,33 @@ header img {
 .year h1{
   font-size: 30px;
 }
+/* love and enjoy section end */
+
+/* some facts section start */
+.facts{
+  padding-left: 100px;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.icon{
+  padding: 10px;
+  text-align: center;
+  height: 110px;
+  width: 120px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.icon img{
+  height: 25px;
+  width: 25px;
+}
+.number{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+/* some facts section end */
