@@ -167,3 +167,35 @@ header img {
   margin: 0 auto;
 }
 /* some facts section end */
+
+/* sponspors section start */
+.our-sponspors{
+  text-align: center;
+}
+.our-sponspors h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.our-sponspors p{
+  padding-left: 500px;
+  padding-right: 500px;
+}
+.images{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+/* sponspors section end */
+
+/* footer section start */
+footer{
+  height: 80px;
+  width: 100%;
+  background-color: #FFF4E7;
+}
+footer p{
+  text-align: center;
+  padding-top: 30px;
+}
+/* footer section end */
