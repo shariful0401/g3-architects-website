@@ -120,3 +120,20 @@ header img {
 .content-div p{
   color: #727272;
 }
+.architect-image{
+  position: relative;
+}
+.year{
+  bottom: -30px;
+  position: absolute;
+  left: -50px;
+  width: 202px;
+  height: 150px;
+  background-color: #FF900E;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+.year h1{
+  font-size: 30px;
+}
