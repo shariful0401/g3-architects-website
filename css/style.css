@@ -52,7 +52,27 @@ ul li {
 header img {
   padding: 30px;
 }
-
+/* header responsive */
+@media screen and (max-width:576px){
+  nav{
+    display: block;
+    align-items: center;
+  }
+  ul li{
+    display: block;
+  }
+  .header-content {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header img{
+    height: 200px;
+    width: 350px;
+    padding: 50px;
+  }
+}
+/* header responsive end */
 /* header section end */
 
 .features-section {
@@ -81,12 +101,25 @@ header img {
 
 .team-images {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 20px;
-  column-gap: 10px;
+  column-gap: 40px;
   padding-left: 100px;
   padding-top: 50px;
 }
+
+/* features responsive start */
+@media screen and (max-width:576px){
+  .features-section {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .team-images{
+    display: inline;
+    padding-left: 10px;
+  }
+}
+/* features responsive end */
 
 /* features section end */
 /* love and enjoy section start */
@@ -137,6 +170,31 @@ header img {
 .year h1{
   font-size: 30px;
 }
+
+/* love and enjoy section reaponsive start */
+@media screen and (max-width: 576px){
+  .love-enjoy-section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 5px;
+  }
+  .architect-image img{
+    height: 400px;
+    width: 300px;
+  }
+  .year{
+    bottom: -10px;
+    position: absolute;
+    left: -10px;
+    width: 150px;
+    height: 120px;
+    background-color: #FF900E;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+  }
+}
+/* responsive end */
 /* love and enjoy section end */
 
 /* some facts section start */
@@ -166,6 +224,21 @@ header img {
   padding: 0 auto;
   margin: 0 auto;
 }
+/* reaponsive icons end*/
+ @media screen and (max-width:576px){
+  .icons{
+    display: block;
+    padding: 10px;
+  }
+  .facts{
+    padding-left: 10px;
+  }
+  .icon{
+    padding: 15px;
+    margin: 10px;
+  }
+}
+/* responsive icons end */
 /* some facts section end */
 
 /* sponspors section start */
@@ -186,6 +259,19 @@ header img {
   padding-top: 40px;
   padding-bottom: 50px;
 }
+/* sponspors responsive start */
+@media screen and (max-width:576px){
+ .images{
+  display: flex;
+  flex-direction: column;
+ } 
+ .images img{
+  height: 100px;
+  width: 200px;
+  margin: 30px;
+ }
+}
+/* sponspors responsive end */
 /* sponspors section end */
 
 /* footer section start */
